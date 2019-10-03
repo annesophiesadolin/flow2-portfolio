@@ -1,0 +1,83 @@
+*{
+    margin: 0; 
+    padding: 0;
+}   
+
+body {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 13px;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+}
+.overskrift {
+    display: flex; 
+    justify-content: center;
+    color: black;
+    font-family: georgia, serif; 
+    font-size: 60px;
+    height: 250%;
+    letter-spacing: 4px;
+    margin-top: 80px;
+    line-height: 6.8px;
+    font-weight: 150;
+}
+
+.overskrift-knap {
+    text-decoration: none;
+}
+
+.nav { 
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    list-style-type: none;
+        
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: halogen;
+    font-weight: 400;
+    color: #000; 
+    display: block; 
+    width: 60px;
+    text-align: center;
+    padding: 40px 30px 40px 30px;
+    justify-content: space-around;
+} 
+
+aboutbillede {
+     margin-left: 70px;
+    float: left;
+
+}
+.abouttext { 
+        color: #000"; 
+        height: 150%;
+        margin-top: 30px;
+        font-family: georgia, serif; 
+        font-size: 16px;
+        text-align: left;
+        letter-spacing: 3px;
+        text-transform: none; 
+    float: right;
+    margin-left: 30px;
+    margin-right: 120px;
+}
+.center {
+   margin-bottom: 10px;
+    height: 30px; 
+}
+.container {
+    display: flex; 
+    justify-content: center;
+    width: 100%; 
+}
+
+.tekst {
+    display: flex; 
+}

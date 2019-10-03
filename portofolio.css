@@ -1,0 +1,164 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: 'georgia-light', serif;
+}   
+
+body {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 13px;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+    width: 100%;
+}
+.overskrift {
+    display: flex; 
+    justify-content: center;
+    color: black;
+    font-family: georgia, serif; 
+    font-size: 60px;
+    height: 250%;
+    letter-spacing: 4px;
+    margin-top: 80px;
+    font-weight: 150;
+    line-height: 120%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.overskrift-knap {
+    text-decoration: none;
+}
+
+.nav { 
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    list-style-type: none;
+        
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: halogen;
+    font-weight: 400;
+    color: #000; 
+    display: block; 
+    width: 60px;
+    text-align: center;
+    padding: 40px 30px 40px 30px;
+    justify-content: space-around;
+}
+.img {  
+    margin: 0;
+    display: flex;
+    max-width: 100%;
+     
+}
+
+.img {
+    height: auto;
+}
+
+.aboutbillede {
+    margin-left: 100px;
+    float: left;
+}
+
+.billede1 {
+    width: 35%; 
+    height: 65%;
+}
+
+.billede2 {
+    width: 42%;
+    height: 58%;
+}
+
+.billede3 {
+    width: 70%;
+    height: 30%;
+}
+
+.text { 
+    color: #bfbfbf; 
+    height: 150%;
+    margin-top: 30px;
+            font-family: georgia, serif; 
+            font-size: 16px;
+            text-align: Center;
+            letter-spacing: 3px;
+            text-transform: none; 
+            margin-left: 10px;
+            margin-right: 92px; 
+            margin-top: 50px; 
+            margin-bottom: 100px;
+}
+
+.abouttext { 
+        color: #000"; 
+        height: 150%;
+        margin-top: 30px;
+        font-family: georgia, serif; 
+        font-size: 16px;
+        text-align: left;
+        letter-spacing: 3px;
+        text-transform: none; 
+    float: right;
+    margin-left: 30px;
+    margin-right: 120px;
+}
+
+.center {
+    margin-bottom: 10px;
+    height: 30px; 
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    width: 100%; 
+}
+.tekst {
+    display: flex; 
+}
+
+.contacttext {
+     height: 150%;
+        margin-top: 30px;
+        font-family: georgia, serif; 
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: none; 
+    margin-left: 30px;
+    margin-right: 120px;
+}
+
+.grid-item-one {
+    width: 500px;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.workbillede {
+    margin: 0;
+    display: flex;
+    max-width: 100%;
+}
+
+.billede4 {
+    width: 33%;
+    height: 67%;
+}
+
+.billede5 {
+    width: 35%; 
+    height: 65%;
+    margin-left: 250px;
+}
+
